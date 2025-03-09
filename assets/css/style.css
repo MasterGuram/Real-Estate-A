@@ -229,6 +229,22 @@ body{
   width: 100%;
   margin-inline: auto;
 }
+.section{
+  padding-block-end: 60px;
+}
+.title-wrapper{
+  margin-block-end: 32px;
+}
+.img-holder{
+  aspect-ratio: var(--width) / var(--height);
+  background-color: var(--neutral-80);
+  overflow: hidden;
+}
+.img-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* COMPONENT */
 .btn{
@@ -282,6 +298,16 @@ body{
 }
 .icon-btn:where(:hover, :focus-visible){
   background-color: var(--neutral-90);
+}
+.badge{
+  height: 32px;
+  max-width: max-content;
+  display: grid;
+  place-items: center;
+  padding-inline: 16px;
+  background-color: var(--secondary-100);
+  border-radius: var(--radius-small);
+  box-shadow: var(--shadow-3);
 }
 
 /* HEADER */
