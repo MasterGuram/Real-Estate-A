@@ -953,5 +953,10 @@ body{
 }
 
 @media (min-width: 1440px){
-  :root
+  :root{
+    --fs-headline-large: 7.2rem;
+    --fs-headline-medium: 5.4rem;
+    --lh-headline-large: 92px;
+    --lh-headlinemedium: 72px;
+  }
 }
