@@ -877,7 +877,7 @@ body{
   }
   .navbar-link.active::before{
     content: "";
-    position: absolute;
+    /* position: absolute; */
     left: 50%;
     translate: -50% 0;
     bottom: 8px;
@@ -976,5 +976,33 @@ body{
   }
   .hero .bg-pattern{
     left: 36%;
+  }
+  .feature-content{
+    padding: 60px;
+  }
+  .feature--list{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .story .section-title{
+    max-width: 820px;
+  }
+  .story-list{
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .story-card:where(:nth-child(1), :nth-child(6)){
+    grid-column: span 3;
+  }
+  .story-card:where(:nth-child(3), :nth-child(5)){
+    grid-column: span 4;
+  }
+  .story-card:where(:nth-child(2), :nth-child(4)){
+    grid-column: span 5;
+  }
+  .footer-brand{
+    grid-column: auto;
+  }
+  .footer-top .container{
+    grid-template-columns: 580px repeat(3, 1fr);
   }
 }
