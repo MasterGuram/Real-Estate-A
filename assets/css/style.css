@@ -974,4 +974,7 @@ body{
     width: 100%;
     left: calc(50% - 108px);
   }
+  .hero .bg-pattern{
+    left: 36%;
+  }
 }
