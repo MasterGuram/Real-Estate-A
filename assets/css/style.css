@@ -969,4 +969,9 @@ body{
   .hero-content{
     grid-column: 1 / 6;
   }
+  .hero-banner{
+    max-width: 820px;
+    width: 100%;
+    left: calc(50% - 108px);
+  }
 }
