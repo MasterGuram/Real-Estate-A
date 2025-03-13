@@ -962,4 +962,11 @@ body{
   .container{
     max-width: 1460px;
   }
+  .hero .container{
+    min-height: 580px;
+    align-items: center;
+  }
+  .hero-content{
+    grid-column: 1 / 6;
+  }
 }
